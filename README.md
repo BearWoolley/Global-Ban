@@ -1,6 +1,8 @@
 # Global-Ban
 Global Ban Banning system for Gmod
 
+
+
 Language files for Global Ban
 
-Scriptfodder: Global-Ban-Code
+Scriptfodder: https://scriptfodder.com/scripts/view/1647
