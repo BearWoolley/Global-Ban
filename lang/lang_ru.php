@@ -5,7 +5,8 @@
 $lang = array(
 
 	//Nav Bar
-	"home" => "Home"
+	"bans" => "Bans",
+	"home" => "Home",
 	"allbans" => "All Bans",
 	"activebans" => "Active Bans",
 	"history" => "History",
@@ -171,13 +172,13 @@ $lang = array(
 	"websitelink" => "Website link:",
 	"changelogo" => "Change logo:",
 	"navbackgroundcolor" => "Navigation bar background colour:",
-	"navtextcolour" => "Navigation bar text colour:"
+	"navtextcolour" => "Navigation bar text colour:",
 	"updateinformation" => "Update information",
 
 	"emailsettings" => "Email Settings",
-	"enableemails" => "Enable email support:"
-	"emailtype" => "Email type:"
-	"smtphostname" => "SMTP Hostname:"
+	"enableemails" => "Enable email support:",
+	"emailtype" => "Email type:",
+	"smtphostname" => "SMTP Hostname:",
 	"smtpexample" => "E.g. smtp@example.com",
 	"port" => "Port:",
 	"portexample" => "E.g. 465",
