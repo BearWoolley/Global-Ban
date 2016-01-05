@@ -1,5 +1,7 @@
 <?php
 
+//French translations for Global Ban
+
 $lang = array(
 
 	//Nav Bar
