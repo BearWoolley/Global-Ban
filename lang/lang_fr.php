@@ -1,233 +1,230 @@
 <?php
 
 //French translations for Global Ban
+//Translation done by Pancheese: http://steamcommunity.com/id/Pancheese/
 
 $lang = array(
 
 	//Nav Bar
-	"bans" => "Bans",
-	"home" => "Home",
-	"allbans" => "All Bans",
-	"activebans" => "Active Bans",
-	"history" => "History",
-	"search" => "Search",
-	"loggedin" => "Logged in as:",
-	"admin" => "Admin",
-	"help" => "Wiki/Help",
-	"logout" => "Logout",
+    "bans" => "Bannissements",
+    "home" => "Accueil",
+    "allbans" => "Tous les bannissements",
+    "activebans" => "Bannissements actifs ",
+    "history" => "Historique",
+    "search" => "Rechercher",
+    "loggedin" => "Enregistré en tant que:",
+    "admin" => "Administrateur",
+    "help" => "Wiki/Aide",
+    "logout" => "Déconnexion",
 
-	//Footer
-	"copyright" => "Copyright",
-	"created" => "Created By",
+    //Footer
+    "copyright" => "Droits d'auteur",
+    "created" => "Créé par",
 
-	//Common
-	"game" => "Game",
-	"date" => "Date/Time",
-	"name" => "Name",
-	"state" => "State",
-	"steamid" => "Steam ID",
-	"view" => "View",
-	"reason" => "Reason",
-	"delete" => "Delete",
-	"communityid" => "Community ID",
-	"email" => "Email",
-	"type" => "Type",
-	"enabled" => "Enabled",
-	"disabled" => "Disabled",
-	"number" => "#",
-	"accept" => "Accept",
-	"decline" => "Decline",
-	"status" => "Status",
+    //Common
+    "game" => "Jeu",
+    "date" => "Date/Heure",
+    "name" => "Nom",
+    "state" => "Etat",
+    "steamid" => "ID Steam",
+    "view" => "Voir",
+    "reason" => "Raison",
+    "delete" => "Supprimer",
+    "communityid" => "Community ID",
+    "email" => "Email",
+    "type" => "Type",
+    "enabled" => "Activé",
+    "disabled" => "Désactivé",
+    "number" => "#",
+    "accept" => "Accepter",
+    "decline" => "Refuser",
+    "status" => "Statut",
 
-	//Error messages
-	"installerror" => "<b>Error whilst loading Application. Please check your config and make sure you have ran the install: www.{your-website}.com/bans/admin/install.php</b>",
-	"signin" => "<b>Please sign in to see this page</b>",
-	"nopermissionerror" => "<b>You do not have permission to be here</b>",
-	"setupcomplete" => "<b>Error whilst loading Application. The setup has already been performed!</b>",
+    //Error messages
+    "installerror" => "<b>Une erreur est survenue lors du chargement de l'application. Veuillez vérifier votre configuration et que vous ayez lancé correctement : www.{votre-site}.com/bans/admin/install.php</b>",
+    "signin" => "<b>Veuillez vous connecter pour consulter cette page</b>",
+    "nopermissionerror" => "<b>Vous n'avez pas la permission requise pour consulter cette page</b>",
+    "setupcomplete" => "<b>Une erreur est survenue lors du chargement de l'application. L'installation a déjà abouti!</b>",
 
-	//Messages
-	"youmustbeloggedin" => "You must be logged in to appeal a ban",
-	"nopermission" => "You do not have permission to appeal this ban",
-	"appealmadebold" => "The appeal has been successfully made!",
-	"appealmade" => "Please wait for an admin to review the appeal.",
-	"appealopen" => "You already have a appeal open please wait for a admin to review it!",
-	"appealblockedbold" => "It seems you have been banned from making appeals",
-	"appealblocked" => "If you believe this is a mistake please contact a admin",
-	"appealacceptedbold" => "The appeal has been accepted!",
-	"appealaccepted" => "The player has now been unbanned.",
-	"appealdeclinedbold" => "The appeal has been declined!",
-	"appealdeclined" => "The player will remain banned.",
-	"serverdeleted" => "Server has been successfully deleted!",
-	"serveradded" => "Server has been successfully added!",
-	"installcompletebold" => "The installation is now complete!",
-	"installcompelte" => "You are now free to use the application.",
-	"playerbanned" => "Player has been banned",
-	"playerblocked" => "Player has been blocked from making appeals",
-	"playerunblocked" => "Player has been removed from the blocked list",
-	"admindeleted" => "Admin has been successfully deleted",
-	"adminadded" => "Admin has been successfully added",
-	"settingsupdatedbold" => "The settings have been updated!",
-	"settingsupdated" => "To pick up the new changes you need to go to the home page or click settings again",
-	"uploadfailedbold" => "The uploaded image did not have the right file type!",
-	"uploadfailed" => "Only the following types are allowed: .gif .jpg .png",
+    //Messages
+    "youmustbeloggedin" => "Vous devez être connecté pour contester cette punition",
+    "nopermission" => "Vous n'avez pas la permission requise pour envoyer une demande",
+    "appealmadebold" => "Votre demande a bien été enregistrée!",
+    "appealmade" => "Veuillez attendre un administrateur pour réviser votre demande.",
+    "appealopen" => "Une demande est déjà en cours veuillez attendre un administrateur pour la réviser!",
+    "appealblockedbold" => "Il semblerait que vous avez été banni pour demandes excessives",
+    "appealblocked" => "Si vous pensez que c'est une erreur veuillez contacter un administrateur",
+    "appealacceptedbold" => "La demande a été accepté!",
+    "appealaccepted" => "Le joueur a maintenant été débanni.",
+    "appealdeclinedbold" => "La demande a été refusée!",
+    "appealdeclined" => "Le joueur restera banni.",
+    "serverdeleted" => "Le serveur a été supprimé correctement !",
+    "serveradded" => "Le serveur a été ajouté correctement!",
+    "installcompletebold" => "L'installation est terminée!",
+    "installcompelte" => "Vous pouvez à présent utiliser l'application.",
+    "playerbanned" => "Le joueur a été banni",
+    "playerblocked" => "Le joueur a été bloqué et ne peut contester à présent",
+    "playerunblocked" => "Le joueur a été débloqué",
+    "admindeleted" => "L'administrateur a été supprimé correctement",
+    "adminadded" => "L'administrateur a été ajouté correctement",
+    "settingsupdatedbold" => "Les paramètres ont été mis à jour!",
+    "settingsupdated" => "Afin d'appliquer les changements, il est nécessaire de retourner à l'accueil ou de cliquer sur le bouton paramètres à nouveau",
+    "uploadfailedbold" => "L'image envoyée n'avait pas le format nécessaire!",
+    "uploadfailed" => "Seuls ces formats sont acceptés: .gif .jpg .png",
 
-	//Install
-	"welcominstall" => "Welcome to Global Ban setup. Please follow all instructions.",
-	"databasecreated" => "The following database has been created <b>%s</b> and all required tables have been made in your database.",
-	"enterdetails" => "Please enter all the details in for the default admin.",
-	"installcommunityid" => "Steam Community ID: (E.g. 76561198030856249)",
-	"installemailaddress" => "Email Address: (Optional. Used to send emails when a new appeal has been submitted)",
-	"submitadmin" => "Submit Admin",
+    //Install
+    "welcominstall" => "Bienvenue sur l'assistant d'installation de Global Ban. Veuillez suivre les instructions.",
+    "databasecreated" => "La base de données suivantes a été créée <b>%s</b> et tout les tableaux nécessaires ont été créés dans votre base de données.",
+    "enterdetails" => "Veuillez indiquer tous les détails pour l'administrateur par défaut.",
+    "installcommunityid" => "Steam Community ID: (E.g. 76561198030856249)",
+    "installemailaddress" => "Adresse Email: (Facultatif. Utile pour envoyer des mails lorsque une nouvelle demande a été soumise)",
+    "submitadmin" => "Soumettre un administrateur",
 
-	//Home
+    //Home
 
-	//Servers
-	"os" => "OS",
-	"vac" => "VAC",
-	"hostname" => "Hostname",
-	"players" => "Players",
-	"map" => "Map",
-	"join" => "Join",
-	"noservers" => "No servers exist",
-	"failedquery" => "Failed to query the server. Please check the server!",
+    //Servers
+    "os" => "OS",
+    "vac" => "VAC",
+    "hostname" => "Nom de l'hôte",
+    "players" => "Joueurs",
+    "map" => "Carte",
+    "join" => "Rejoindre",
+    "noservers" => "Aucun serveurs présents",
+    "failedquery" => "Echec de l'envoi de la requête. Veuillez vérifier le server!",
 
-	//Perma Bans
-	"permabans" => "Latest permanent bans",
-	"totalpermabans" => "Total permanent bans:",
-	"nopermabans" => "No current permanent bans",
+    //Perma Bans
+    "permabans" => "Derniers bannissements permanents",
+    "totalpermabans" => "Bannissements permanents total:",
+    "nopermabans" => "Aucun bannissement permanent",
 
-	//Temp Bans
-	"tempbans" => "Latest temp bans",
-	"totaltempbans" => "Total temp bans:",
-	"unbanned" => "Unbanned at",
-	"notempbans" => "No current temp bans",
+    //Temp Bans
+    "tempbans" => "Derniers bannissements temporaires",
+    "totaltempbans" => "Bannissements temporaires total:",
+    "unbanned" => "Débanni le",
+    "notempbans" => "Aucun bannissement temporaire",
 
-	//Ban Details
-	"bandetails" => "Ban Details",
-	"namebanned" => "Name when banned:",
-	"currentname" => "Current name:",
-	"location" => "Location:",
-	"profile" => "Profile:",
-	"timeofban" => "Time of ban:",
-	"server" => "Server:",
-	"bannedby" => "Banned by:",
-	"unbantime" => "Unban time:",
-	"unbannedby" => "Unbanned by:",
-	"historyreasonnobans" => "User has no previous bans",
-	"historyreason" => "User has had %s previous ban(s)",
-	"appealthisban" => "Appeal this ban",
-	"appealsdisabled" => "Appeals are disabled",
-	"nobanselected" => "No ban selected. Please go back and select a ban.",
+    //Ban Details
+    "bandetails" => "Détails du bannissements",
+    "namebanned" => "Nom lors du bannissement:",
+    "currentname" => "Nom actuel:",
+    "location" => "Localisation:",
+    "profile" => "Profile:",
+    "timeofban" => "Durée du bannissement:",
+    "server" => "Serveur:",
+    "bannedby" => "Banni par:",
+    "unbantime" => "Heure du débannissement:",
+    "unbannedby" => "Débanni par:",
+    "historyreasonnobans" => "L'utilisateur n'a aucun bannisement à son actif",
+    "historyreason" => "L'utilisateur a %s ban(s) à son actif",
+    "appealthisban" => "Contester cette punition",
+    "appealsdisabled" => "Les demandes sont désactivés",
+    "nobanselected" => "Aucun bannissement sélectionné. Veuillez choisir un bannissement.",
+    "appealhistory" => "Historique des demandes",
+    "lastupdatedate" => "Date de la dernière mise à jour",
+    "lastupdatedby" => "Dernière mise à jour effectuée par",
+    "noappealhistory" => "Aucun historique de demande",
 
-	"appealhistory" => "Appeal History",
-	"lastupdatedate" => "Last update date",
-	"lastupdatedby" => "Last update by",
-	"noappealhistory" => "No appeal history",
+    //Ban Appeal
+    "makeappeal" => "Faire une demande",
+    "banappeal" => "Demande de",
+    "unbanreason" => "Pourquoi devrais-tu être débanni?:",
+    "banappealbtn" => "Envoyer la demande",
 
-	//Ban Appeal
-	"makeappeal" => "Make a Appeal",
-	"banappeal" => "Ban Appeal Form",
-	"unbanreason" => "Why should you be unbanned?:",
-	"banappealbtn" => "Submit Ban Appeal",
+    //All Bans
+    "noallbans" => "Aucun bannissement existant",
 
-	//All Bans
-	"noallbans" => "No bans exist",
+    //Active bans
+    "noactivebans" => "Aucun bannissement actif",
 
-	//Active bans
-	"noactivebans" => "No active bans",
+    //History
+    "nohistorybans" => "Aucun historique de bannissement",
 
-	//History
-	"nohistorybans" => "No history of bans",
+    //Search
+    "searchuser" => "Rechercher un utilisateur",
+    "entersteamid" => "Entrer l'ID Steam...",
+    "results" => "Resultats",
 
-	//Search
-	"searchuser" => "Search for a user",
-	"entersteamid" => "Enter Steam ID...",
-	"results" => "Results",
+    //Admin Pages
+    "adminhome" => "Accueil administrateur",
+    "appeals" => "Demandes",
+    "banplayer" => "Bannir un joueur",
+    "blockplayer" => "Bloquer un joueur",
+    "manageservers" => "Organiser les serveurs",
+    "manageadmins" => "Organiser les administrateurs",
+    "settings" => "Paramètres",
+    "wiki" => "Wiki",
 
-	//Admin Pages
-	"adminhome" => "Admin home",
-	"appeals" => "Appeals",
-	"banplayer" => "Ban a player",
-	"blockplayer" => "Block a player",
-	"manageservers" => "Manage servers",
-	"manageadmins" => "Manage admins",
-	"settings" => "Settings",
-	"wiki" => "Wiki",
+    //Admin Home
+    "welcome" => "Bienvenue,",
+    "statistics" => "Statistiques",
+    "pendingappeals" => "Demandes en attente:",
+    "acceptedappeals" => "Demandes acceptées:",
+    "declinedappeals" => "Demandes refusées:",
+    "adminpermabans" => "Bannissements permanents:",
+    "admintempbans" => "Bannissements temporaires:",
+    "admintotalbans" => "Bannissements total:",
 
-	//Admin Home
-	"welcome" => "Welcome,",
-	"statistics" => "Statistics",
-	"pendingappeals" => "Pending Appeals:",
-	"acceptedappeals" => "Accepted Appeals:",
-	"declinedappeals" => "Declined Appeals:",
-	"adminpermabans" => "Permament Bans:",
-	"admintempbans" => "Temp Bans:",
-	"admintotalbans" => "Total Bans:",
+    //Appeals
+    "pendingbanappeals" => "Demandes en attente",
+    "noappeals" => "Aucune demande en cours",
+    "historyofappeals" => "Historique des demandes",
+    "nohistory" => "Aucun historique de demande",
+    "dateofappeal" => "Date/Heure de la demande",
+    "datedecision" => "Date/Heure de la décision",
+    "banappealmessage" => "Demande",
+    "banid" => "ID du bannissement",
+    "vacbans" => "Nombre de bannissements VAC",
+    "datebanned" => "Date/Heure banni",
 
-	//Appeals
-	"pendingbanappeals" => "Pending Ban Appeals",
-	"noappeals" => "No open appeals",
+    //Ban a player
+    "banlength" => "Durée du bannissement (0 pour permanent):",
+    "banplayerbtn" => "Bannir un joueur",
 
-	"historyofappeals" => "History of ban appeals",
-	"nohistory" => "No history of appeals",
-	"dateofappeal" => "Date/Time of appeal",
-	"datedecision" => "Date/Time of decision",
+    //Block a user
+    "blockmessage" => "Empêcher un joueur de contester.",
+    "blockuserbtn" => "Bloquer l'utilisateur",
+    "noblockusers" => "Aucun utilisateur bloqué",
 
-	"banappealmessage" => "ban appeal",
-	"banid" => "Ban ID",
-	"vacbans" => "Number of VAC bans",
-	"datebanned" => "Date/Time banned",
+    //Manage Servers
+    "serverid" => "ID du serveur",
+    "host" => "Hôte",
+    "addserver" => "Ajouter un nouveau serveur",
+    "exampleserverid" => "Exemple: ttt, darkrp, deathrun, bhop, etc",
+    "examplehost" => "Exemple: 127.0.0.1:27015",
+    "addserverbtn" => "Ajouter un serveur",
 
-	//Ban a player
-	"banlength" => "Ban length (0 for permanent):",
-	"banplayerbtn" => "Ban Player",
+    //Server tooltips
+    "serveridtooltip" => "Entrer l'id des serveurs p.ex: ttt",
+    "hosttooltip" => "Entrer l'id des serveurs dans le format suivant: 127.0.0.1:27015",
 
-	//Block a user
-	"blockmessage" => "Prevent a user from being able to make ban appeals.",
-	"blockuserbtn" => "Block User",
-	"noblockusers" => "No blocked users",
-
-	//Manage Servers
-	"serverid" => "Server ID",
-	"host" => "Host",
-	"addserver" => "Add a new server",
-	"exampleserverid" => "Example: ttt, darkrp, deathrun, bhop, etc",
-	"examplehost" => "Example: 127.0.0.1:27015",
-	"addserverbtn" => "Add Server",
-
-	//Server tooltips
-	"serveridtooltip" => "Enter the servers id e.g: ttt",
-	"hosttooltip" => "Enter the servers IP in the following format: 127.0.0.1:27015",
-
-	//Manage admins
-	"adminsuperadmin" => "Admin/Super Admin",
-	"addnewadmin" => "Add a new admin",
-	"emailoptional" => "Email (Optional)",
-	"addadminbtn" => "Add Admin",
-	"communitytooltip" => "Enter the admins community ID e.g: 76561198030856249",
-
-	//Settings
-	"generalsettings" => "General Settings",
-	"websitename" => "Website name:",
-	"websitelink" => "Website link:",
-	"changelogo" => "Change logo:",
-	"navbackgroundcolor" => "Navigation bar background colour:",
-	"navtextcolour" => "Navigation bar text colour:",
-	"enableappeals" => "Appeals:",
-	"updateinformation" => "Update information",
-
-	"emailsettings" => "Email Settings",
-	"enableemails" => "Enable email support:",
-	"emailtype" => "Email type:",
-	"smtphostname" => "SMTP Hostname:",
-	"smtpexample" => "E.g. smtp@example.com",
-	"port" => "Port:",
-	"portexample" => "E.g. 465",
-	"username" => "Username:",
-	"password" => "Password:",
-	"smtptype" => "SMTP type:",
-	"emailaddress" => "Email address:",
-	"emailfrom" => "Email from:",
-	"updateemailinformation" => "Update Email information",
+    //Manage admins
+    "adminsuperadmin" => "Administrateur/Super Administrateur",
+    "addnewadmin" => "Ajouter un nouvel administrateur",
+    "emailoptional" => "Email (Facultatif)",
+    "addadminbtn" => "Ajouter un administrateur",
+    "communitytooltip" => "Entre le community ID des administrateurs p.ex: 76561198030856249",
+    
+    //Settings
+    "generalsettings" => "Paramètres géneraux",
+    "websitename" => "Nom du site web:",
+    "websitelink" => "Lien du site web:",
+    "changelogo" => "Changer le logo:",
+    "navbackgroundcolor" => "Couleur de l'arrière-plan de la barre de navigation:",
+    "navtextcolour" => "Couleur du texte de la barre de navigation:",
+    "enableappeals" => "Demandes:",
+    "updateinformation" => "Mettre à jour les informations",
+    "emailsettings" => "Paramètres de l'adresse Email",
+    "enableemails" => "Activer le support Email:",
+    "emailtype" => "Type de l'Email:",
+    "smtphostname" => "Nom de l'hôte du SMTP:",
+    "smtpexample" => "p.ex. smtp@exemple.com",
+    "port" => "Port:",
+    "portexample" => "P.ex. 465",
+    "username" => "Nom d'utilisateur:",
+    "password" => "Mot de passe:",
+    "smtptype" => "Type de SMTP:",
+	"emailaddress" => "Adresse e-mail:",
+	"emailfrom" => "email de:",
+	"updateemailinformation" => "Mise à jour des informations par email",
 	);
 ?>
