@@ -1,6 +1,7 @@
 <?php
 
 //Spanish translations for Global Ban
+//Translations done by theGoldTrigger: https://github.com/theGoldTrigger
 
 $lang = array(
 
