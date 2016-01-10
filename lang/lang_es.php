@@ -5,39 +5,39 @@
 $lang = array(
 
 	//Nav Bar
-	"bans" => "Bans",
-	"home" => "Home",
-	"allbans" => "All Bans",
-	"activebans" => "Active Bans",
-	"history" => "History",
-	"search" => "Search",
+	"bans" => "Prohibiciones",
+	"home" => "Inicio",
+	"allbans" => "Todas Prohibiciones", //there might be a better way to say that D:
+	"activebans" => "Prohibiciones Activas",
+	"history" => "Historial",
+	"search" => "Buscar",
 	"loggedin" => "Logged in as:",
-	"admin" => "Admin",
-	"help" => "Wiki/Help",
-	"logout" => "Logout",
+	"admin" => "Administrador",
+	"help" => "Wiki/Ayuda",
+	"logout" => "Salir",
 
 	//Footer
 	"copyright" => "Copyright",
-	"created" => "Created By",
+	"created" => "Creado Por",
 
 	//Common
-	"game" => "Game",
-	"date" => "Date/Time",
-	"name" => "Name",
-	"state" => "State",
+	"game" => "Juego",
+	"date" => "Día/Hora",
+	"name" => "Nombre",
+	"state" => "Estado", // State as in condition?
 	"steamid" => "Steam ID",
-	"view" => "View",
-	"reason" => "Reason",
-	"delete" => "Delete",
+	"view" => "Ver", // I assumed this was the verb form of view; (ex: To View) correct me if I'm wrong
+	"reason" => "Razón",
+	"delete" => "Borrar",
 	"communityid" => "Community ID",
 	"email" => "Email",
-	"type" => "Type",
-	"enabled" => "Enabled",
-	"disabled" => "Disabled",
+	"type" => "Tipo",
+	"enabled" => "Habilitado",
+	"disabled" => "Inhabilitado", 
 	"number" => "#",
-	"accept" => "Accept",
-	"decline" => "Decline",
-	"status" => "Status",
+	"accept" => "Aceptar",
+	"decline" => "Declinar",
+	"status" => "Estado", // Status as in condition?
 
 	//Error messages
 	"installerror" => "<b>Error whilst loading Application. Please check your config and make sure you have ran the install: www.{your-website}.com/bans/admin/install.php</b>",
