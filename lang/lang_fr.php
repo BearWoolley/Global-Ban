@@ -73,7 +73,7 @@ $lang = array(
     "uploadfailed" => "Seuls ces formats sont acceptés: .gif .jpg .png",
 
     //Install
-    "welcominstall" => "Bienvenue sur l'assistant d'installation de Global Ban. Veuillez suivre les instructions.",
+    "welcomeinstall" => "Bienvenue sur l'assistant d'installation de Global Ban. Veuillez suivre les instructions.",
     "databasecreated" => "La base de données suivantes a été créée <b>%s</b> et tout les tableaux nécessaires ont été créés dans votre base de données.",
     "enterdetails" => "Veuillez indiquer tous les détails pour l'administrateur par défaut.",
     "installcommunityid" => "Steam Community ID: (E.g. 76561198030856249)",

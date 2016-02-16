@@ -73,7 +73,7 @@ $lang = array(
     "uploadfailed" => "Alleen de volgende bestandstypes zijn toegestaan: .gif .jpg .png",
  
     //Install
-    "welcominstall" => "Welkom bij de Global Ban setup. volg alle instructies aub.",
+    "welcomeinstall" => "Welkom bij de Global Ban setup. volg alle instructies aub.",
     "databasecreated" => "De volgende database is aangemaakt <b>%s</b> en alle vereiste tabellen zijn aangemaakt in uw database.",
     "enterdetails" => "Vul alle gegevens in voor de standaard admin.",
     "installcommunityid" => "Steam Community ID: (E.g. 76561198030856249)",
