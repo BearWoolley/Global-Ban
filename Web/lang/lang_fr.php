@@ -90,7 +90,6 @@ $lang = array(
     "map" => "Carte",
     "join" => "Rejoindre",
     "noservers" => "Aucun serveurs présents",
-    "failedquery" => "Echec de l'envoi de la requête. Veuillez vérifier le server!",
 
     //Perma Bans
     "permabans" => "Derniers bannissements permanents",
@@ -226,5 +225,16 @@ $lang = array(
 	"emailaddress" => "Adresse e-mail:",
 	"emailfrom" => "email de:",
 	"updateemailinformation" => "Mise à jour des informations par email",
+
+
+	# Version 2.1.0 changes #
+
+	"bannedLbl" => "Banned",
+	"unbannedLbl" => "Unbanned",
+	"expiredLbl" => "Expired",
+
+	"failedquery" => "Unable to query server. Server is most likely offline.",
+
+	"unbandate" => "Never",
 	);
 ?>
