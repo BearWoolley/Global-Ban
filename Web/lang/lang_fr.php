@@ -108,7 +108,7 @@ $lang = array(
     "currentname" => "Nom actuel:",
     "location" => "Localisation:",
     "profile" => "Profile:",
-    "timeofban" => "Durée du bannissement:",
+    "timeofban" => "Date du bannissement:",
     "server" => "Serveur:",
     "bannedby" => "Banni par:",
     "unbantime" => "Heure du débannissement:",
@@ -140,7 +140,7 @@ $lang = array(
 
     //Search
     "searchuser" => "Rechercher un utilisateur",
-    "entersteamid" => "Entrer l'ID Steam...",
+    "entersteamid" => "Entrer le SteamID...",
     "results" => "Resultats",
 
     //Admin Pages
