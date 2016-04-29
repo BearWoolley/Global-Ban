@@ -1,6 +1,7 @@
 <?php
 
 //Polish text for Global Ban
+//Translation done by Nesyth: http://steamcommunity.com/id/Nesyth/
 
 $lang = array(
 
