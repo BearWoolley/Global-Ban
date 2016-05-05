@@ -24,7 +24,8 @@
 
 	Purchased at www.scriptfodder.com
 	
-	File Information: Translated by Fixator10
+	File Information: Trainslated by Fixator10 
+	http://vk.com/fixator10 | http://steamcommunity.com/id/fixator10 | https://telegram.me/fixator10
 ----------------------------------------]]--
 
 -- When you're translating, LEAVE THE {}'d TEXT ALONE!!! Those are place holders that get replaced with actual values.
