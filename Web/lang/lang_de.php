@@ -18,10 +18,10 @@ $lang = array(
 
 	//Footer
 	"copyright" => "Copyright",
-	"created" => "Created By",
+	"created" => "Erstellt von",
 
 	//Common
-	"game" => "Game",
+	"game" => "Spiel",
 	"date" => "Datum/Zeit",
 	"name" => "Name",
 	"state" => "State",
@@ -86,8 +86,8 @@ $lang = array(
 	"vac" => "VAC",
 	"hostname" => "Hostname",
 	"players" => "Spieler",
-	"map" => "Map",
-	"join" => "Join",
+	"map" => "Karte",
+	"join" => "Beitreten",
 	"noservers" => "Es existiert kein Server",
 
 	//Perma Bans
@@ -232,12 +232,12 @@ $lang = array(
 
 	# Version 2.1.0 changes #
 
-	"bannedLbl" => "Banned",
-	"unbannedLbl" => "Unbanned",
-	"expiredLbl" => "Expired",
+	"bannedLbl" => "Gebannt",
+	"unbannedLbl" => "Entbannt",
+	"expiredLbl" => "Ausgelaufen",
 
-	"failedquery" => "Unable to query server. Server is most likely offline.",
+	"failedquery" => "Kann Server nicht finden. Dieser Server ist vermutlich offline.",
 
-	"unbandate" => "Never",
+	"unbandate" => "Niemals",
 	);
 ?>
