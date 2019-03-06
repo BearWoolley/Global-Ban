@@ -233,12 +233,12 @@ $lang = array(
 
 	# Version 2.1.0 changes #
 
-	"bannedLbl" => "Banned",
-	"unbannedLbl" => "Unbanned",
-	"expiredLbl" => "Expired",
+	"bannedLbl" => "Забанен",
+	"unbannedLbl" => "Разбанен",
+	"expiredLbl" => "Истекло",
 
-	"failedquery" => "Unable to query server. Server is most likely offline.",
+	"failedquery" => "Невозможно отправить запрос серверу. Сервер скорее всего выключен.",
 
-	"unbandate" => "Never",
+	"unbandate" => "Никогда",
 	);
 ?>
