@@ -21,10 +21,10 @@ $lang = array(
 	"created" => "Created By",
 
 	//Common
-	"game" => "Game",
+	"game" => "Spiel",
 	"date" => "Datum/Zeit",
 	"name" => "Name",
-	"state" => "State",
+	"state" => "Zustand",
 	"steamid" => "Steam ID",
 	"view" => "Ansehen",
 	"reason" => "Grund",
@@ -40,29 +40,29 @@ $lang = array(
 	"status" => "Status",
 
 	//Error messages
-	"installerror" => "<b>Error beim laden der Applikation. Bitte überprüfe deine Config und stelle sicher das du die Applikation bereits installiert hast: www.{your-website}.com/bans/admin/install.php</b>",
+	"installerror" => "<b>Fehler beim laden der Applikation. Bitte überprüfe deine Config und stelle sicher das du die Applikation bereits installiert hast: www.{your-website}.com/bans/admin/install.php</b>",
 	"signin" => "<b>Bitte melde dich an um diesen Bereich zu sehen.</b>",
 	"nopermissionerror" => "<b>Du hast keine Rechte um das hier zu sehen.</b>",
-	"setupcomplete" => "<b>Error beim laden der Applikation. Die Installation wurde bereits ausgeführt.</b>",
+	"setupcomplete" => "<b>Fehler beim laden der Applikation. Die Installation wurde bereits ausgeführt.</b>",
 
 	//Messages
-	"youmustbeloggedin" => "Du musst eingeloggt sein um einen Entbann-Antrag zu stellen.",
-	"nopermission" => "Du hast keine Berechtigung um einen Entbann-Antrag zu stellen.",
-	"appealmadebold" => "Dein Entbann-Antrag wurde erfolgreich gestellt!",
+	"youmustbeloggedin" => "Du musst eingeloggt sein um einen Entbannungs-Antrag zu stellen.",
+	"nopermission" => "Du hast keine Berechtigung um einen Entbannungs-Antrag zu stellen.",
+	"appealmadebold" => "Dein Entbannungs-Antrag wurde erfolgreich gestellt!",
 	"appealmade" => "Bitte warte bis sich ein Admin um dein Anliegen kümmert.",
 	"appealopen" => "Du hast bereits einen Antrag gestellt. Bitte warte bis sich ein Admin darum kümmert!",
 	"appealblockedbold" => "Es scheint als ob du keine Entbann-Anträge mehr einreichen dürftest.",
 	"appealblocked" => "Wenn du dir sicher bist, dass etwas nicht in Ordnung war, kontaktiere bitte einen Admin.",
-	"appealacceptedbold" => "Dein Entbann-Antrag wurde akzeptiert!",
+	"appealacceptedbold" => "Dein Entbannungs-Antrag wurde akzeptiert!",
 	"appealaccepted" => "Der Spieler wurde entbannt.",
-	"appealdeclinedbold" => "Dein Entbann-Antrag wurde abgelehnt!",
+	"appealdeclinedbold" => "Dein Entbannungs-Antrag wurde abgelehnt!",
 	"appealdeclined" => "Der Spieler wurde gebannt.",
 	"serverdeleted" => "Server wurde erfolgreich gelöscht!",
 	"serveradded" => "Server wurde erfolgreich hinzugefügt!",
 	"installcompletebold" => "Die Installation ist nun komplett!",
 	"installcomplete" => "Du kannst gBan nun verwenden.",
 	"playerbanned" => "Spieler wurde erfolgreich gebannt",
-	"playerblocked" => "Spieler wurde blockiert, er kann nun keine Entbann-Anträge mehr stellen.",
+	"playerblocked" => "Spieler wurde blockiert, er kann nun keine Entbannungs-Anträge mehr stellen.",
 	"playerunblocked" => "Spieler wurde erfolgreich aus der Blockliste entfernt.",
 	"admindeleted" => "Admin wurde erfolgreich gelöscht.",
 	"adminadded" => "Admin wurde erfolgreich hinzugefügt.",
@@ -72,11 +72,11 @@ $lang = array(
 	"uploadfailed" => "Wir akzeptieren nur: .gif .jpg .png",
 
 	//Install
-	"welcomeinstall" => "Willkommen zum Global Ban Setup. Bitte folge den Instruktionen.",
-	"databasecreated" => "Folgende Datenbank wurde erstellt <b>%s</b> es wurden alle benötigten Tabellen erfolgreich erstellt.",
+	"welcomeinstall" => "Willkommen zum Global Ban Insatllationsassistenten. Bitte folge den Instruktionen.",
+	"databasecreated" => "Folgende Datenbank wurde erstellt <b>%s</b>. Es wurden alle benötigten Tabellen erfolgreich erstellt.",
 	"enterdetails" => "Bitte gebe alle Daten für den Admin ein.",
 	"installcommunityid" => "Steam Community ID: (z.B. 76561198030856249)",
-	"installemailaddress" => "Email Address: (Optional. Wird nur benötigt wenn die Entbann-Anträge auch per Mail versendet werden sollen.)",
+	"installemailaddress" => "Email Addresse: (Optional. Wird nur benötigt wenn die Entbannungs-Anträge auch per Mail versendet werden sollen.)",
 	"submitadmin" => "Admin anlegen",
 
 	//Home
@@ -84,59 +84,59 @@ $lang = array(
 	//Servers
 	"os" => "OS",
 	"vac" => "VAC",
-	"hostname" => "Hostname",
+	"hostname" => "Servername",
 	"players" => "Spieler",
-	"map" => "Map",
-	"join" => "Join",
+	"map" => "Karte",
+	"join" => "Beitreten",
 	"noservers" => "Es existiert kein Server",
 
 	//Perma Bans
-	"permabans" => "Letzte permanente Bans",
-	"totalpermabans" => "Alle permanenten Bans:",
-	"nopermabans" => "Keine Bans aktuell.",
+	"permabans" => "Letzte permanente Verbannungen",
+	"totalpermabans" => "Alle permanenten Verbannungen:",
+	"nopermabans" => "Aktuell keine permanente Verbannungen.",
 
 	//Temp Bans
-	"tempbans" => "Letzte temp Bans",
-	"totaltempbans" => "Alle temp Bans:",
+	"tempbans" => "Letzte befristete Verbannungen",
+	"totaltempbans" => "Alle befristete Verbannungen:",
 	"unbanned" => "entbannt am",
-	"notempbans" => "Keine Bans aktuell.",
+	"notempbans" => "Keine befristete Verbannungen gefunden..",
 
 	//Ban Details
-	"bandetails" => "Ban Details",
+	"bandetails" => "Einzelheiten zum Ban",
 	"namebanned" => "Name als der Ban erfolgte:",
 	"currentname" => "Aktueller Name:",
 	"location" => "Ort:",
 	"profile" => "Profil:",
-	"timeofban" => "Zeit des Bans:",
+	"timeofban" => "Zeit der Verbannungen:",
 	"server" => "Server:",
 	"bannedby" => "Gebannt von:",
 	"unbantime" => "Wird entbannt am:",
 	"unbannedby" => "Entbannt von:",
-	"historyreasonnobans" => "Der User hatte noch keine vorherigen Bans.",
+	"historyreasonnobans" => "Der User hatte noch keine vorherigen Verbannungen.",
 	"historyreason" => "Der User war %s mal gebannt davor.",
-	"appealthisban" => "Entbann-Antrag einreichen",
-	"appealsdisabled" => "Entbann-Anträge sind deaktiviert.",
-	"nobanselected" => "Kein Ban ausgewählt. Bitte wähle zuerst einen.",
+	"appealthisban" => "Entbannungs-Antrag einreichen",
+	"appealsdisabled" => "Entbannungs-Anträge sind deaktiviert.",
+	"nobanselected" => "Keine Verbannungen ausgewählt. Bitte wähle zuerst einen.",
 
-	"appealhistory" => "Entbann-Anträge Verlauf",
+	"appealhistory" => "Entbannungs-Anträge Verlauf",
 	"lastupdatedate" => "Letztes Update",
 	"lastupdatedby" => "Letztes Update von",
-	"noappealhistory" => "Kein Entbann-Anträge bisher.",
+	"noappealhistory" => "Kein Entbannungs-Anträge bisher.",
 
 	//Ban Appeal
-	"makeappeal" => "Entbann-Antrag einreichen",
-	"banappeal" => "Entbann-Antrags Formular",
+	"makeappeal" => "Entbannungs-Antrag einreichen",
+	"banappeal" => "Entbannungs-Antrags Formular",
 	"unbanreason" => "Wieso sollten wir dich entbannen?:",
 	"banappealbtn" => "Antrag einreichen",
 
 	//All Bans
-	"noallbans" => "Es existieren keine Bans.",
+	"noallbans" => "Es existieren keine Verbannungen.",
 
 	//Active bans
-	"noactivebans" => "Es existieren keine aktiven Bans.",
+	"noactivebans" => "Es existieren keine aktive Verbannungen",
 
 	//History
-	"nohistorybans" => "Kein Ban Verlauf vorhanden.",
+	"nohistorybans" => "Kein Verbannungs-Verlauf vorhanden.",
 
 	//Search
 	"searchuser" => "Suche nach einem Spieler",
@@ -145,7 +145,7 @@ $lang = array(
 
 	//Admin Pages
 	"adminhome" => "Admin home",
-	"appeals" => "Entbann-Anträge",
+	"appeals" => "Entbannungs-Anträge",
 	"banplayer" => "Spieler bannen",
 	"blockplayer" => "Spieler blockieren",
 	"manageservers" => "Server bearbeiten",
@@ -156,29 +156,29 @@ $lang = array(
 	//Admin Home
 	"welcome" => "Willkommen,",
 	"statistics" => "Statistiken",
-	"pendingappeals" => "Aktuelle Entbann-Anträge:",
-	"acceptedappeals" => "Akzeptierte Entbann-Anträge:",
-	"declinedappeals" => "Abgelehnte Entbann-Anträge:",
-	"adminpermabans" => "Permanente Bans:",
-	"admintempbans" => "Temporäre Bans:",
-	"admintotalbans" => "Alle Bans:",
+	"pendingappeals" => "Aktuelle Entbannungs-Anträge:",
+	"acceptedappeals" => "Akzeptierte Entbannungs-Anträge:",
+	"declinedappeals" => "Abgelehnte Entbannungs-Anträge:",
+	"adminpermabans" => "Permanente Verbannungen:",
+	"admintempbans" => "Temporäre Verbannungen:",
+	"admintotalbans" => "Alle Verbannungen:",
 
 	//Appeals
-	"pendingbanappeals" => "Aktuelle Entbann-Anträge",
+	"pendingbanappeals" => "Aktuelle Entbannungs-Anträge",
 	"noappeals" => "Keine vorhanden",
 
-	"historyofappeals" => "Bisherige Entbann-Anträge",
+	"historyofappeals" => "Bisherige Entbannungs-Anträge",
 	"nohistory" => "Keine vorhanden",
 	"dateofappeal" => "Datum/Zeit vom Antrag",
 	"datedecision" => "Datum/Zeit der Entscheidung",
 
-	"banappealmessage" => "Entbann-Antrag",
+	"banappealmessage" => "Entbannungs-Antrag",
 	"banid" => "Ban ID",
-	"vacbans" => "Nummer von VAC bans",
+	"vacbans" => "Nummer von VAC Verbannungen",
 	"datebanned" => "Datum/Zeit gebannt",
 
 	//Ban a player
-	"banlength" => "Ban Dauer (0 für permanent):",
+	"banlength" => "Verbannungs Dauer (0 für permanent):",
 	"banplayerbtn" => "Spieler bannen",
 
 	//Block a user
@@ -188,14 +188,14 @@ $lang = array(
 
 	//Manage Servers
 	"serverid" => "Server ID",
-	"host" => "Host",
+	"host" => "Anbieter",
 	"addserver" => "Neuen Server hinzufügen",
 	"exampleserverid" => "Beispiel: ttt, darkrp, ,underdone, starwarsrp, deathrun, bhop, etc",
 	"examplehost" => "Beispiel: 127.0.0.1:27015",
 	"addserverbtn" => "Server hinzufügen",
 
 	//Server tooltips
-	"serveridtooltip" => "Server Gamemode z.B: ttt",
+	"serveridtooltip" => "Server Spielmodus z.B: ttt",
 	"hosttooltip" => "Die Server IP im folgenden Format: 127.0.0.1:27015",
 
 	//Manage admins
@@ -207,8 +207,8 @@ $lang = array(
 
 	//Settings
 	"generalsettings" => "Allgemiene Einstellungen",
-	"websitename" => "Website name:",
-	"websitelink" => "Website link:",
+	"websitename" => "Name der Webseite:",
+	"websitelink" => "Link der Webseite:",
 	"changelogo" => "Logo ändern:",
 	"navbackgroundcolor" => "Navigations Zeile Hintergrund:",
 	"navtextcolour" => "Navigations Zeile Textfarbe:",
@@ -222,7 +222,7 @@ $lang = array(
 	"smtpexample" => "E.g. smtp@example.com",
 	"port" => "Port:",
 	"portexample" => "E.g. 465",
-	"username" => "Username:",
+	"username" => "Name:",
 	"password" => "Passwort:",
 	"smtptype" => "SMTP Typ:",
 	"emailaddress" => "Email Adresse:",
@@ -232,12 +232,12 @@ $lang = array(
 
 	# Version 2.1.0 changes #
 
-	"bannedLbl" => "Banned",
-	"unbannedLbl" => "Unbanned",
-	"expiredLbl" => "Expired",
+	"bannedLbl" => "Verbannt",
+	"unbannedLbl" => "Entbannt",
+	"expiredLbl" => "Abgelaufen",
 
-	"failedquery" => "Unable to query server. Server is most likely offline.",
+	"failedquery" => "Query nicht moeglich, Server ist wahrscheinlich Offline.",
 
-	"unbandate" => "Never",
+	"unbandate" => "Niemals",
 	);
 ?>
